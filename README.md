@@ -6,4 +6,9 @@ This notebook presents a complete lifecycle of ANN neural network for image clas
 The chosen dataset is called MNIST  
 This dataset includes 28x28 black and white images, each with a free hand written numbers from 0 to 9  
 The train dataset has 60000 images and for test dataset we have 10000 images  
+
+------
 The dataset select can be downloaded at Pytorch dataset
+To download the dataset set download=True parameter inside datasets.MNIST funcition
+  > train_data = datasets.MNIST(root='./Data', train=True, download=True)
+  > test_data = datasets.MNIST(root='./Data', train=False, download=True)
